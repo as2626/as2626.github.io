@@ -28,10 +28,17 @@
       margin: auto;
       display: block;
     }
+
+    .zoom {
+      zoom: 3; 
+      -moz-transform: scale(3); 
+      -moz-transform-origin: 0 0;
+    }
   </style>
 </head>
 
 <body>
+<div class="zoom">
   <div>
     <img src="./resources/gameheader.png">
   </div>
@@ -40,6 +47,7 @@
   <canvas id="canvas2" width=950 height=450>
     <script src="./main.js"></script>
   </canvas>
+</div>
 
 </body>
 
